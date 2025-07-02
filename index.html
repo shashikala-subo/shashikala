@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Shopclues.com|Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    
+</head>
+<body> 
+    
+    <div class="header">
+   <div class="container">
+        <div class="navbar">
+         <div class="logo">
+             <img src="images/images.png" width="125px">
+             </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                 </ul>
+             </nav>
+             <img src="images/smiling-shopping-bag-tote-cart-600nw-2423149591.webp" width="30px" height="30px">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Workout<br> A New Style!</h1>
+                <p>Seccess isn't always about greatness. It's about
+                consistency. Consistent<br> hard work gains success. Greatness
+                will come..</p>
+                <a href="" class="btn">explore now &#8594;</a>
+         </div>
+         <div class="col-2">
+             <img src="images/man-playing-football_1368-3028.avif">
+         </div>    
+        </div >
+    </div>
+   </div>
+   
+   <!------- featured categories ------->
+       <div class="categories">
+           <div class="row">
+               <div class="col-3">
+                   <img src="images/kylie-jenner-adidas-originals-campaign-05.jpg">
+               </div>
+               <div class="col-3">
+                   <img src="images/pi5.jpg">
+               </div>
+             
+           </div>
+    <!------- featured categories ------->
+           <div class="small-container">
+               <h2>           Featured Products</h2>
+               <div class="row">
+                  <div class="col-4">
+                      <img src="images/shoe1.jpg">
+                      <h4>Adidas shoe</h4>
+                      <div class="rating">
+                          <i class="fa fa-star"></i> 
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i> 
+                          <i class="fa fa-star"></i>  
+                     </div>
+                      <p>$49.99</p>
+                      
+                  </div>
+                    <div class="col-4">
+                      <img src="images/main.jpg">
+                      <h4>Adidas shoe</h4>
+                      <div class="rating">
+                          <i class="fa fa-star"></i> 
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i> 
+                          <i class="fa fa-star"></i>  
+                     </div>
+                      <p>$55.99</p>
+                      
+                  </div>
+                   <div class="col-4">
+                      <img src="images/Classic_Badge_of_Sport_Backpack_Black_HG0349_01_00_standard.avif">
+                      <h4>Adidas shoe</h4>
+                      <div class="rating">
+                          <i class="fa fa-star"></i> 
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i> 
+                          <i class="fa fa-star"></i>  
+                     </div>
+                      <p>$45.99</p>
+                      
+                  </div>
+               </div>  
+           </div>
+        </div>
+    <!------- offer ------->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/41LdtfFzcML.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_PIRIOTHREE-medium,BottomLeft,30,-20_ZA54,500,900,420,420,AmazonEmber,50,4,0,0_QL100_.jpg" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Excluisively Available on Shop clues.com</p>
+                        <h1>Wrist Band</h1>
+                        <small>	Distance Tracker, Accelerometer, Heart Rate Monitor</small>
+                        
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                    
+                    
+                    
+                    </div>
+            
+            
+            
+            
+            </div>
+            
+                
+            
+            
+            
+            
+            </div>
+    
+    
+    
+    
+    
+    </div>
+  
+
+  
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Options</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f5f5f5;
+    }
+    .payment-container {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .btn {
+      background-color: #28a745;
+      color: white;
+      padding: 12px;
+      margin-top: 20px;
+      border: none;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="payment-container">
+    <h2>Make a Payment</h2>
+
+    <form action="/process-payment" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="payment-method">Payment Method</label>
+      <select id="payment-method" name="payment_method" required>
+        <option value="">-- Select Method --</option>
+        <option value="card">Credit/Debit Card</option>
+        <option value="online">Online Payment (e.g., PayPal, UPI)</option>
+      </select>
+
+      <!-- Card Details Section -->
+      <div id="card-details" style="display: none;">
+        <label for="card-number">Card Number</label>
+        <input type="text" id="card-number" name="card_number" placeholder="1234 5678 9012 3456">
+
+        <label for="expiry">Expiry Date</label>
+        <input type="text" id="expiry" name="expiry" placeholder="MM/YY">
+
+        <label for="cvv">CVV</label>
+        <input type="number" id="cvv" name="cvv" placeholder="123">
+      </div>
+
+      <!-- Online Payment Note -->
+      <div id="online-note" style="display: none;">
+        <p>After submitting, you'll be redirected to a secure online payment gateway (like PayPal or UPI).</p>
+      </div>
+
+      <button class="btn" type="submit">Submit Payment</button>
+    </form>
+  </div>
+
+  <script>
+    const paymentMethod = document.getElementById('payment-method');
+    const cardDetails = document.getElementById('card-details');
+    const onlineNote = document.getElementById('online-note');
+
+    paymentMethod.addEventListener('change', function() {
+      if (this.value === 'card') {
+        cardDetails.style.display = 'block';
+        onlineNote.style.display = 'none';
+      } else if (this.value === 'online') {
+        cardDetails.style.display = 'none';
+        onlineNote.style.display = 'block';
+      } else {
+        cardDetails.style.display = 'none';
+        onlineNote.style.display = 'none';
+      }
+    });
+  </script>
+    
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sportswear Shop</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Elevate Your Game 💪</h1>
+  </header>
+
+  <section class="products">
+    <div class="card">
+      <img src="images/1175890_ADIDAS_PRO_EVO_1_7.jpg" alt="Running Shoes">
+      <div class="card-body">
+        <h3>Pro Runner Shoes</h3>
+        <p class="price">$99.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/R6MME_SQ1_0000000269_WHITE_BLACK_MDf%20tankl.jpeg" alt="Performance Tank">
+      <div class="card-body">
+        <h3>Breathable Tank Top</h3>
+        <p class="price">$45.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/adidas---Kids_-_Junior_-Train-Essentials-Aeroready-Logo-Shorts-_IC5658_2.webp" alt="Training pants">
+      <div class="card-body">
+        <h3>Training Shorts</h3>
+        <p class="price">$40.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 SportsWear Co. | Follow us on Instagram & Twitter
+  </footer>
+
+
+<footer style="background-color: #333; color: white; padding: 30px 0; font-family: Arial, sans-serif;">
+  <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 20px;">
+    
+    <!-- About Section -->
+    <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+      <h3>About Us</h3>
+      <p>We provide high-quality services and support to help your business grow. Reach out to us anytime.</p>
+    </div>
+
+    <!-- Contact Info -->
+    <div style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+      <h3>Contact</h3>
+      <p>Email: <a href="shashikala1206@gmail.com" style="color: #ccc;">shashikalasubodhini1206@gmail.com</a></p>
+      <p>Phone: <a href="tel:+1234567890" style="color: #ccc;">+94 77 279 4812</a></p>
+      <p>Address: NO 182/B, Maveehena,Mirigama</p>
+    </div>la
+
+    <!-- Quick Links -->
+    <div style="flex: 1; min-width: 200px; margin-bottom: 20px;">
+      <h3> Quick Links</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#" style="color: #ccc; text-decoration: none;">Home</a></li>
+        <li><a href="#" style="color: #ccc; text-decoration: none;">Products</a></li>
+        <li><a href="#" style="color: #ccc; text-decoration: none;">About</a></li>
+        <li><a href="#" style="color: #ccc; text-decoration: none;">Contact</a></li>
+        <li><a href="#" style="color: #ccc; text-decoration: none;">Account</a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div style="text-align: center; margin-top: 20px; border-top: 1px solid #555; padding-top: 10px;">
+    <p>&copy; 2025 our Company. All rights reserved.</p>
+  </div>
+</footer>
+    
+    
+        
+        
+</body>
+</html>
